@@ -1,0 +1,236 @@
+nav {
+    font-size: 30px;
+    background-color: rgb(0, 105, 23);
+    color: white;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    width: 420px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1, 4;
+    transition: all 2s;
+    padding: 10px;
+    border-bottom: 1px solid rgb(64, 230, 133);
+    border: 2px solid rgb(15, 156, 46);
+    background-color: rgb(17, 148, 46);
+}
+
+.card img {
+    width: 100%;
+}
+
+.tarjetas {
+    width: 82vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.iniciofotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+}
+
+.fot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.limites {
+    width: 70vw;
+    margin: 10px auto;
+}
+
+.mesi {
+    text-align: center;
+}
+
+details {
+    text-align: center;
+}
+
+.rta li {
+    list-style: none;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgb(64, 230, 133);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a {
+    transition: 1s;
+    text-decoration: none;
+}
+
+.img {
+    justify-content: center;
+    background-image: inherit;
+    background-size: fixed;
+}
+
+.fondo {
+    height: 540px;
+    background: url(neyy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondomaradona {
+    height: 540px;
+    background: url(legenda_sepakbola_argentina_diego_maradona_meninggal_dunia.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondomessi {
+    height: 540px;
+    background: url(messi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondoronaldinho {
+    height: 540px;
+    background: url(ronaldinho.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: "Cormorant", serif;
+    font-size: 32px;
+}
+
+.texto {
+    font-size: 25px;
+}
+
+* {
+    line-height: 2;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0
+}
+
+.card li {
+    line-height: 2;
+    font-family: "Cormorant", serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0
+}
+
+.card img {
+    height: 200px;
+    width: 350px;
+}
+
+.neymar:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgb(43, 255, 0);
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+}
+
+.titulo a:hover {
+    color: blue;
+}
+
+h3 {
+    font-weight: bold;
+
+}
+
+body {
+    background: linear-gradient(#000000, rgb(15, 155, 15));
+    color: white
+}
+
+@media(width<768px) {
+
+    nav {
+        flex-direction: column;
+    }
+    .fondo {
+        height: 540px;
+        background: url(neyy.jpg);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    .fondomaradona {
+        height: 540px;
+        background: url(legenda_sepakbola_argentina_diego_maradona_meninggal_dunia.jpg);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    .fondomessi {
+        height: 540px;
+        background: url(messi.jpg);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    .fondoronaldinho {
+        height: 540px;
+        background: url(ronaldinho.jpg);
+        background-size: auto;
+        background-attachment: fixed;
+    }
+}
